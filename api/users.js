@@ -19,7 +19,7 @@ function validUser(user) {
 
 router.get('/', (req, res) => {
     res.json({
-        message: 'okay this is working! 😀'
+        message: 'okay this is working! To see users see: /api/users/signup 😀'
     });
 });
 
