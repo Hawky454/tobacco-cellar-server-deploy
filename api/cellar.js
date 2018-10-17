@@ -13,7 +13,6 @@ function isValidId(req, res, next) {
 }
 
 function validateEntries(cellar) {
-    //todo still trying to figure out how to properly validate entries
     const hasPrice = !isNaN(cellar.price);
     const hasRating = !isNaN(cellar.rating);
     const hasWeight = !isNaN(cellar.weight);
