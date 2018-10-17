@@ -26,7 +26,7 @@ router.get('/', (req, res) => {
 router.get('/signup', (req, res) => {
     queriesUsers.getAll().then(users => {
         res.json(users);
-        console.table('this route is working! 😃 😃',users);
+        console.table('this route is working! 😃 😃', users);
     });
 });
 
