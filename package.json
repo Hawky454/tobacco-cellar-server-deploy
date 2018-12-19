@@ -29,5 +29,21 @@
   "engines": {
     "node": "10.10.0",
     "npm": "~6.4.1"
-  }
+  },
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hawky454/tobacco-cellar-server-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hawky454/tobacco-cellar-server-deploy/issues"
+  },
+  "homepage": "https://github.com/Hawky454/tobacco-cellar-server-deploy#readme",
+  "description": ""
 }
